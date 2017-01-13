@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		268C7C3F1E276B4200571EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C3E1E276B4200571EA8 /* main.m */; };
+		268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C411E276B4200571EA8 /* AppDelegate.m */; };
+		268C7C451E276B4200571EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C441E276B4200571EA8 /* ViewController.m */; };
+		268C7C481E276B4200571EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C461E276B4200571EA8 /* Main.storyboard */; };
+		268C7C4A1E276B4200571EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C491E276B4200571EA8 /* Assets.xcassets */; };
+		268C7C4D1E276B4200571EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C4B1E276B4200571EA8 /* LaunchScreen.storyboard */; };
+		268C7C581E276B4200571EA8 /* FDSwipeCardViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C571E276B4200571EA8 /* FDSwipeCardViewDemoTests.m */; };
+		268C7C631E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C621E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m */; };
+		268C7C731E276F4F00571EA8 /* FDSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */; };
+		268C7C781E277C3F00571EA8 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C751E277C3F00571EA8 /* 1.jpeg */; };
+		268C7C791E277C3F00571EA8 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C761E277C3F00571EA8 /* 2.jpeg */; };
+		268C7C7A1E277C3F00571EA8 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C771E277C3F00571EA8 /* 3.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		268C7C541E276B4200571EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268C7C321E276B4200571EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268C7C391E276B4200571EA8;
+			remoteInfo = FDSwipeCardViewDemo;
+		};
+		268C7C5F1E276B4200571EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268C7C321E276B4200571EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268C7C391E276B4200571EA8;
+			remoteInfo = FDSwipeCardViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		268C7C3A1E276B4200571EA8 /* FDSwipeCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDSwipeCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C7C3E1E276B4200571EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		268C7C401E276B4200571EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		268C7C411E276B4200571EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		268C7C431E276B4200571EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		268C7C441E276B4200571EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		268C7C471E276B4200571EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		268C7C491E276B4200571EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		268C7C4C1E276B4200571EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		268C7C4E1E276B4200571EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268C7C531E276B4200571EA8 /* FDSwipeCardViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDSwipeCardViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C7C571E276B4200571EA8 /* FDSwipeCardViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardViewDemoTests.m; sourceTree = "<group>"; };
+		268C7C591E276B4200571EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268C7C5E1E276B4200571EA8 /* FDSwipeCardViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDSwipeCardViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		268C7C621E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardViewDemoUITests.m; sourceTree = "<group>"; };
+		268C7C641E276B4200571EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		268C7C711E276F4F00571EA8 /* FDSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSwipeCardView.h; sourceTree = "<group>"; };
+		268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardView.m; sourceTree = "<group>"; };
+		268C7C751E277C3F00571EA8 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		268C7C761E277C3F00571EA8 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		268C7C771E277C3F00571EA8 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268C7C371E276B4200571EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C501E276B4200571EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C5B1E276B4200571EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		268C7C311E276B4200571EA8 = {
+			isa = PBXGroup;
+			children = (
+				268C7C3C1E276B4200571EA8 /* FDSwipeCardViewDemo */,
+				268C7C561E276B4200571EA8 /* FDSwipeCardViewDemoTests */,
+				268C7C611E276B4200571EA8 /* FDSwipeCardViewDemoUITests */,
+				268C7C3B1E276B4200571EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		268C7C3B1E276B4200571EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C3A1E276B4200571EA8 /* FDSwipeCardViewDemo.app */,
+				268C7C531E276B4200571EA8 /* FDSwipeCardViewDemoTests.xctest */,
+				268C7C5E1E276B4200571EA8 /* FDSwipeCardViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		268C7C3C1E276B4200571EA8 /* FDSwipeCardViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C741E277C3F00571EA8 /* Sources */,
+				268C7C701E276B8700571EA8 /* FDSwipeCardView */,
+				268C7C401E276B4200571EA8 /* AppDelegate.h */,
+				268C7C411E276B4200571EA8 /* AppDelegate.m */,
+				268C7C431E276B4200571EA8 /* ViewController.h */,
+				268C7C441E276B4200571EA8 /* ViewController.m */,
+				268C7C461E276B4200571EA8 /* Main.storyboard */,
+				268C7C491E276B4200571EA8 /* Assets.xcassets */,
+				268C7C4B1E276B4200571EA8 /* LaunchScreen.storyboard */,
+				268C7C4E1E276B4200571EA8 /* Info.plist */,
+				268C7C3D1E276B4200571EA8 /* Supporting Files */,
+			);
+			path = FDSwipeCardViewDemo;
+			sourceTree = "<group>";
+		};
+		268C7C3D1E276B4200571EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C3E1E276B4200571EA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		268C7C561E276B4200571EA8 /* FDSwipeCardViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C571E276B4200571EA8 /* FDSwipeCardViewDemoTests.m */,
+				268C7C591E276B4200571EA8 /* Info.plist */,
+			);
+			path = FDSwipeCardViewDemoTests;
+			sourceTree = "<group>";
+		};
+		268C7C611E276B4200571EA8 /* FDSwipeCardViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C621E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m */,
+				268C7C641E276B4200571EA8 /* Info.plist */,
+			);
+			path = FDSwipeCardViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		268C7C701E276B8700571EA8 /* FDSwipeCardView */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C711E276F4F00571EA8 /* FDSwipeCardView.h */,
+				268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */,
+			);
+			path = FDSwipeCardView;
+			sourceTree = "<group>";
+		};
+		268C7C741E277C3F00571EA8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				268C7C751E277C3F00571EA8 /* 1.jpeg */,
+				268C7C761E277C3F00571EA8 /* 2.jpeg */,
+				268C7C771E277C3F00571EA8 /* 3.jpeg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		268C7C391E276B4200571EA8 /* FDSwipeCardViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268C7C671E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemo" */;
+			buildPhases = (
+				268C7C361E276B4200571EA8 /* Sources */,
+				268C7C371E276B4200571EA8 /* Frameworks */,
+				268C7C381E276B4200571EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDSwipeCardViewDemo;
+			productName = FDSwipeCardViewDemo;
+			productReference = 268C7C3A1E276B4200571EA8 /* FDSwipeCardViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		268C7C521E276B4200571EA8 /* FDSwipeCardViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268C7C6A1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoTests" */;
+			buildPhases = (
+				268C7C4F1E276B4200571EA8 /* Sources */,
+				268C7C501E276B4200571EA8 /* Frameworks */,
+				268C7C511E276B4200571EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268C7C551E276B4200571EA8 /* PBXTargetDependency */,
+			);
+			name = FDSwipeCardViewDemoTests;
+			productName = FDSwipeCardViewDemoTests;
+			productReference = 268C7C531E276B4200571EA8 /* FDSwipeCardViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		268C7C5D1E276B4200571EA8 /* FDSwipeCardViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268C7C6D1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoUITests" */;
+			buildPhases = (
+				268C7C5A1E276B4200571EA8 /* Sources */,
+				268C7C5B1E276B4200571EA8 /* Frameworks */,
+				268C7C5C1E276B4200571EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268C7C601E276B4200571EA8 /* PBXTargetDependency */,
+			);
+			name = FDSwipeCardViewDemoUITests;
+			productName = FDSwipeCardViewDemoUITests;
+			productReference = 268C7C5E1E276B4200571EA8 /* FDSwipeCardViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		268C7C321E276B4200571EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Fergus.Ding;
+				TargetAttributes = {
+					268C7C391E276B4200571EA8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					268C7C521E276B4200571EA8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 268C7C391E276B4200571EA8;
+					};
+					268C7C5D1E276B4200571EA8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 268C7C391E276B4200571EA8;
+					};
+				};
+			};
+			buildConfigurationList = 268C7C351E276B4200571EA8 /* Build configuration list for PBXProject "FDSwipeCardViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 268C7C311E276B4200571EA8;
+			productRefGroup = 268C7C3B1E276B4200571EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				268C7C391E276B4200571EA8 /* FDSwipeCardViewDemo */,
+				268C7C521E276B4200571EA8 /* FDSwipeCardViewDemoTests */,
+				268C7C5D1E276B4200571EA8 /* FDSwipeCardViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		268C7C381E276B4200571EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268C7C791E277C3F00571EA8 /* 2.jpeg in Resources */,
+				268C7C4D1E276B4200571EA8 /* LaunchScreen.storyboard in Resources */,
+				268C7C4A1E276B4200571EA8 /* Assets.xcassets in Resources */,
+				268C7C7A1E277C3F00571EA8 /* 3.jpeg in Resources */,
+				268C7C481E276B4200571EA8 /* Main.storyboard in Resources */,
+				268C7C781E277C3F00571EA8 /* 1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C511E276B4200571EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C5C1E276B4200571EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268C7C361E276B4200571EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268C7C451E276B4200571EA8 /* ViewController.m in Sources */,
+				268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */,
+				268C7C3F1E276B4200571EA8 /* main.m in Sources */,
+				268C7C731E276F4F00571EA8 /* FDSwipeCardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C4F1E276B4200571EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268C7C581E276B4200571EA8 /* FDSwipeCardViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		268C7C5A1E276B4200571EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268C7C631E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		268C7C551E276B4200571EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268C7C391E276B4200571EA8 /* FDSwipeCardViewDemo */;
+			targetProxy = 268C7C541E276B4200571EA8 /* PBXContainerItemProxy */;
+		};
+		268C7C601E276B4200571EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 268C7C391E276B4200571EA8 /* FDSwipeCardViewDemo */;
+			targetProxy = 268C7C5F1E276B4200571EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		268C7C461E276B4200571EA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268C7C471E276B4200571EA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		268C7C4B1E276B4200571EA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				268C7C4C1E276B4200571EA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		268C7C651E276B4200571EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		268C7C661E276B4200571EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		268C7C681E276B4200571EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDSwipeCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		268C7C691E276B4200571EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FDSwipeCardViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		268C7C6B1E276B4200571EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDSwipeCardViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDSwipeCardViewDemo.app/FDSwipeCardViewDemo";
+			};
+			name = Debug;
+		};
+		268C7C6C1E276B4200571EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FDSwipeCardViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDSwipeCardViewDemo.app/FDSwipeCardViewDemo";
+			};
+			name = Release;
+		};
+		268C7C6E1E276B4200571EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDSwipeCardViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDSwipeCardViewDemo;
+			};
+			name = Debug;
+		};
+		268C7C6F1E276B4200571EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FDSwipeCardViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fergusding.FDSwipeCardViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FDSwipeCardViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268C7C351E276B4200571EA8 /* Build configuration list for PBXProject "FDSwipeCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268C7C651E276B4200571EA8 /* Debug */,
+				268C7C661E276B4200571EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		268C7C671E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268C7C681E276B4200571EA8 /* Debug */,
+				268C7C691E276B4200571EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268C7C6A1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268C7C6B1E276B4200571EA8 /* Debug */,
+				268C7C6C1E276B4200571EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		268C7C6D1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				268C7C6E1E276B4200571EA8 /* Debug */,
+				268C7C6F1E276B4200571EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 268C7C321E276B4200571EA8 /* Project object */;
+}
