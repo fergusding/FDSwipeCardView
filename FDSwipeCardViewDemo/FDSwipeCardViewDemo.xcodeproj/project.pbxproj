@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264F40981E2871890076D5D7 /* FDSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F40971E2871890076D5D7 /* FDSwipeCardView.m */; };
 		268C7C3F1E276B4200571EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C3E1E276B4200571EA8 /* main.m */; };
 		268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C411E276B4200571EA8 /* AppDelegate.m */; };
 		268C7C451E276B4200571EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C441E276B4200571EA8 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		268C7C4D1E276B4200571EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C4B1E276B4200571EA8 /* LaunchScreen.storyboard */; };
 		268C7C581E276B4200571EA8 /* FDSwipeCardViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C571E276B4200571EA8 /* FDSwipeCardViewDemoTests.m */; };
 		268C7C631E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C621E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m */; };
-		268C7C731E276F4F00571EA8 /* FDSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */; };
 		268C7C781E277C3F00571EA8 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C751E277C3F00571EA8 /* 1.jpeg */; };
 		268C7C791E277C3F00571EA8 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C761E277C3F00571EA8 /* 2.jpeg */; };
 		268C7C7A1E277C3F00571EA8 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 268C7C771E277C3F00571EA8 /* 3.jpeg */; };
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264F40961E2871890076D5D7 /* FDSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSwipeCardView.h; sourceTree = "<group>"; };
+		264F40971E2871890076D5D7 /* FDSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardView.m; sourceTree = "<group>"; };
 		268C7C3A1E276B4200571EA8 /* FDSwipeCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDSwipeCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268C7C3E1E276B4200571EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		268C7C401E276B4200571EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		268C7C5E1E276B4200571EA8 /* FDSwipeCardViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDSwipeCardViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		268C7C621E276B4200571EA8 /* FDSwipeCardViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardViewDemoUITests.m; sourceTree = "<group>"; };
 		268C7C641E276B4200571EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		268C7C711E276F4F00571EA8 /* FDSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSwipeCardView.h; sourceTree = "<group>"; };
-		268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardView.m; sourceTree = "<group>"; };
 		268C7C751E277C3F00571EA8 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		268C7C761E277C3F00571EA8 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 		268C7C771E277C3F00571EA8 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
@@ -87,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264F40951E2871890076D5D7 /* FDSwipeCardView */ = {
+			isa = PBXGroup;
+			children = (
+				264F40961E2871890076D5D7 /* FDSwipeCardView.h */,
+				264F40971E2871890076D5D7 /* FDSwipeCardView.m */,
+			);
+			path = FDSwipeCardView;
+			sourceTree = "<group>";
+		};
 		268C7C311E276B4200571EA8 = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +119,8 @@
 		268C7C3C1E276B4200571EA8 /* FDSwipeCardViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				264F40951E2871890076D5D7 /* FDSwipeCardView */,
 				268C7C741E277C3F00571EA8 /* Sources */,
-				268C7C701E276B8700571EA8 /* FDSwipeCardView */,
 				268C7C401E276B4200571EA8 /* AppDelegate.h */,
 				268C7C411E276B4200571EA8 /* AppDelegate.m */,
 				268C7C431E276B4200571EA8 /* ViewController.h */,
@@ -149,15 +158,6 @@
 				268C7C641E276B4200571EA8 /* Info.plist */,
 			);
 			path = FDSwipeCardViewDemoUITests;
-			sourceTree = "<group>";
-		};
-		268C7C701E276B8700571EA8 /* FDSwipeCardView */ = {
-			isa = PBXGroup;
-			children = (
-				268C7C711E276F4F00571EA8 /* FDSwipeCardView.h */,
-				268C7C721E276F4F00571EA8 /* FDSwipeCardView.m */,
-			);
-			path = FDSwipeCardView;
 			sourceTree = "<group>";
 		};
 		268C7C741E277C3F00571EA8 /* Sources */ = {
@@ -309,7 +309,7 @@
 				268C7C451E276B4200571EA8 /* ViewController.m in Sources */,
 				268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */,
 				268C7C3F1E276B4200571EA8 /* main.m in Sources */,
-				268C7C731E276F4F00571EA8 /* FDSwipeCardView.m in Sources */,
+				264F40981E2871890076D5D7 /* FDSwipeCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +541,7 @@
 				268C7C691E276B4200571EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268C7C6A1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +550,7 @@
 				268C7C6C1E276B4200571EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		268C7C6D1E276B4200571EA8 /* Build configuration list for PBXNativeTarget "FDSwipeCardViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +559,7 @@
 				268C7C6F1E276B4200571EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
