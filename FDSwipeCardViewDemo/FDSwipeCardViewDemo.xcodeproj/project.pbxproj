@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		264F40981E2871890076D5D7 /* FDSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F40971E2871890076D5D7 /* FDSwipeCardView.m */; };
+		264F409B1E28729F0076D5D7 /* FDSwipeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264F409A1E28729F0076D5D7 /* FDSwipeCardView.m */; };
 		268C7C3F1E276B4200571EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C3E1E276B4200571EA8 /* main.m */; };
 		268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C411E276B4200571EA8 /* AppDelegate.m */; };
 		268C7C451E276B4200571EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C7C441E276B4200571EA8 /* ViewController.m */; };
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		264F40961E2871890076D5D7 /* FDSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSwipeCardView.h; sourceTree = "<group>"; };
-		264F40971E2871890076D5D7 /* FDSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardView.m; sourceTree = "<group>"; };
+		264F40991E28729F0076D5D7 /* FDSwipeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSwipeCardView.h; sourceTree = "<group>"; };
+		264F409A1E28729F0076D5D7 /* FDSwipeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSwipeCardView.m; sourceTree = "<group>"; };
 		268C7C3A1E276B4200571EA8 /* FDSwipeCardViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDSwipeCardViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		268C7C3E1E276B4200571EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		268C7C401E276B4200571EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,15 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		264F40951E2871890076D5D7 /* FDSwipeCardView */ = {
-			isa = PBXGroup;
-			children = (
-				264F40961E2871890076D5D7 /* FDSwipeCardView.h */,
-				264F40971E2871890076D5D7 /* FDSwipeCardView.m */,
-			);
-			path = FDSwipeCardView;
-			sourceTree = "<group>";
-		};
 		268C7C311E276B4200571EA8 = {
 			isa = PBXGroup;
 			children = (
@@ -119,12 +110,13 @@
 		268C7C3C1E276B4200571EA8 /* FDSwipeCardViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				264F40951E2871890076D5D7 /* FDSwipeCardView */,
 				268C7C741E277C3F00571EA8 /* Sources */,
 				268C7C401E276B4200571EA8 /* AppDelegate.h */,
 				268C7C411E276B4200571EA8 /* AppDelegate.m */,
 				268C7C431E276B4200571EA8 /* ViewController.h */,
 				268C7C441E276B4200571EA8 /* ViewController.m */,
+				264F40991E28729F0076D5D7 /* FDSwipeCardView.h */,
+				264F409A1E28729F0076D5D7 /* FDSwipeCardView.m */,
 				268C7C461E276B4200571EA8 /* Main.storyboard */,
 				268C7C491E276B4200571EA8 /* Assets.xcassets */,
 				268C7C4B1E276B4200571EA8 /* LaunchScreen.storyboard */,
@@ -309,7 +301,7 @@
 				268C7C451E276B4200571EA8 /* ViewController.m in Sources */,
 				268C7C421E276B4200571EA8 /* AppDelegate.m in Sources */,
 				268C7C3F1E276B4200571EA8 /* main.m in Sources */,
-				264F40981E2871890076D5D7 /* FDSwipeCardView.m in Sources */,
+				264F409B1E28729F0076D5D7 /* FDSwipeCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
